@@ -221,7 +221,7 @@ let gost = sprites.create(img`
     `, SpriteKind.Enemy)
 tiles.placeOnRandomTile(gost, myTiles.tile1)
 gost.x += 14
-let loade = 0
+loaded = 0
 game.onUpdate(function () {
     if (kitkat.y > 200) {
         game.over(false, effects.melt)
